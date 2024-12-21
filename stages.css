@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+header:hover {
+    background-color: #f0f0f0;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+.main {
+    padding: 100px 200px 50px;
+    background: linear-gradient(to bottom, rgb(78, 158, 255), rgb(240, 240, 240));
+    color: white;
+    text-align: center;
+    min-height: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.stages-main {
+    padding: 120px 200px 50px;
+    background-color: #ffffff;
+    color: #333;
+    min-height: 10vh;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+.stage-item {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    padding: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    margin-bottom: 100px;
+    border-left: 5px solid #3a6cf4;
+}
+
+.stage-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.stage-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.stage-content h2 {
+    color: #3a6cf4;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.stage-content p {
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+.stage-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}

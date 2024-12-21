@@ -1,0 +1,149 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+header:hover {
+    background-color: #f0f0f0;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+.main {
+    padding: 100px 200px 50px;
+    background: linear-gradient(to bottom, rgb(78, 158, 255), rgb(240, 240, 240));
+    color: white;
+    text-align: center;
+    min-height: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.projects {
+    padding: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project_card {
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project_card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+.project_image {
+    width: 100%;
+    height: 180px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-catg {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.more-det {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-det:hover {
+    color: #601cfc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}

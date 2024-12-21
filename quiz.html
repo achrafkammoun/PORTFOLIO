@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Achraf</a>
+        <nav class="navigation">
+            <a href="index.html#services">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <h1>Testez vos connaissances !</h1>
+        <p>Répondez aux questions ci-dessous pour voir votre score final.</p>
+    </section>
+
+    <section class="quiz-container">
+        <div class="quiz">
+            <form id="quizForm">
+                <div class="question">
+                    <h2>1. Quelle est la capitale de la France ?</h2>
+                    <label><input type="radio" name="q1" value="0"> Marseille</label>
+                    <label><input type="radio" name="q1" value="1"> Lyon</label>
+                    <label><input type="radio" name="q1" value="2"> Paris</label>
+                </div>
+
+                <div class="question">
+                    <h2>2. Combien de continents y a-t-il dans le monde ?</h2>
+                    <label><input type="radio" name="q2" value="0"> 5</label>
+                    <label><input type="radio" name="q2" value="1"> 6</label>
+                    <label><input type="radio" name="q2" value="2"> 7</label>
+                </div>
+
+                <div class="question">
+                    <h2>3. Quelle est la plus grande planète du système solaire ?</h2>
+                    <label><input type="radio" name="q3" value="0"> Mars</label>
+                    <label><input type="radio" name="q3" value="1"> Jupiter</label>
+                    <label><input type="radio" name="q3" value="2"> Saturne</label>
+                </div>
+
+                <div class="question">
+                    <h2>4. Quelle est la formule chimique de l'eau ?</h2>
+                    <label><input type="radio" name="q4" value="0"> CO2</label>
+                    <label><input type="radio" name="q4" value="1"> H2O</label>
+                    <label><input type="radio" name="q4" value="2"> O2</label>
+                </div>
+
+                <div class="question">
+                    <h2>5. Qui a peint La Joconde ?</h2>
+                    <label><input type="radio" name="q5" value="0"> Van Gogh</label>
+                    <label><input type="radio" name="q5" value="1"> Léonard de Vinci</label>
+                    <label><input type="radio" name="q5" value="2"> Picasso</label>
+                </div>
+
+                <div class="question">
+                    <h2>6. Quelle est la langue la plus parlée au monde ?</h2>
+                    <label><input type="radio" name="q6" value="0"> Anglais</label>
+                    <label><input type="radio" name="q6" value="1"> Chinois</label>
+                    <label><input type="radio" name="q6" value="2"> Espagnol</label>
+                </div>
+
+                <div class="question">
+                    <h2>7. Combien de secondes y a-t-il dans une heure ?</h2>
+                    <label><input type="radio" name="q7" value="0"> 360</label>
+                    <label><input type="radio" name="q7" value="1"> 3600</label>
+                    <label><input type="radio" name="q7" value="2"> 6000</label>
+                </div>
+
+                <div class="question">
+                    <h2>8. Quelle est l'unité de mesure de la force ?</h2>
+                    <label><input type="radio" name="q8" value="0"> Pascal</label>
+                    <label><input type="radio" name="q8" value="1"> Newton</label>
+                    <label><input type="radio" name="q8" value="2"> Joule</label>
+                </div>
+
+                <div class="question">
+                    <h2>9. Quel est le plus grand océan du monde ?</h2>
+                    <label><input type="radio" name="q9" value="0"> Océan Atlantique</label>
+                    <label><input type="radio" name="q9" value="1"> Océan Indien</label>
+                    <label><input type="radio" name="q9" value="2"> Océan Pacifique</label>
+                </div>
+
+                <div class="question">
+                    <h2>10. Quel est l'animal le plus rapide du monde ?</h2>
+                    <label><input type="radio" name="q10" value="0"> Guépard</label>
+                    <label><input type="radio" name="q10" value="1"> Faucon pèlerin</label>
+                    <label><input type="radio" name="q10" value="2"> Antilope</label>
+                </div>
+
+                <div class="question">
+                    <h2>11. Quelle est la monnaie utilisée au Japon ?</h2>
+                    <label><input type="radio" name="q11" value="0"> Yuan</label>
+                    <label><input type="radio" name="q11" value="1"> Yen</label>
+                    <label><input type="radio" name="q11" value="2"> Won</label>
+                </div>
+
+                <div class="question">
+                    <h2>12. Quel est le symbole chimique de l'or ?</h2>
+                    <label><input type="radio" name="q12" value="0"> Au</label>
+                    <label><input type="radio" name="q12" value="1"> Ag</label>
+                    <label><input type="radio" name="q12" value="2"> Fe</label>
+                </div>
+
+                <button type="button" onclick="calculateScore()">Valider</button>
+            </form>
+
+            <div id="result" class="result"></div>
+        </div>
+    </section>
+
+    <script src="quiz.js"></script>
+    <footer>
+        <p>&copy; 2024 Achraf Kammoun | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

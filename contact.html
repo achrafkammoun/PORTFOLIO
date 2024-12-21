@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Achraf</a>
+        <nav class="navigation">
+            <a href="index.html">Accueil</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <h1>Contactez-moi</h1>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <form action="https://formspree.io/f/movqzzgr" method="POST">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" placeholder="Votre email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Achraf Kammoun | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

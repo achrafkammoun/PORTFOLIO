@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vrglove.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Création de Gants VR</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Gants VR</a>
+        <nav class="navigation">
+            <a href="index.html#services">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h1>Création de Gants VR</h1>
+            <p>Interagir avec des jeux en temps réel grâce à des gants VR utilisant ESP32 et MPU6050.</p>
+        </div>
+    </section>
+
+    <section class="project-details">
+        <h2>À propos du projet</h2>
+        <p>
+            Ce projet innovant vise à intégrer des gants VR capables de suivre les mouvements des mains et d'interagir avec des jeux dans Unity. Le cœur du système repose sur un ESP32 pour la communication et un MPU6050 pour détecter les mouvements. Les gants traduisent les gestes physiques en commandes numériques dans un environnement de jeu.
+        </p>
+
+        <h3>Fonctionnalités principales :</h3>
+        <ul>
+            <li>Suivi précis des mouvements des mains avec un capteur MPU6050 (gyroscope et accéléromètre).</li>
+            <li>Communication sans fil via ESP32 pour une interaction en temps réel.</li>
+            <li>Mapping des gestes des mains pour effectuer des actions dans le jeu (par exemple, attraper, lancer, pointer).</li>
+            <li>Interface utilisateur dans Unity pour visualiser et tester les gestes en direct.</li>
+        </ul>
+
+        <h3>Étapes de développement :</h3>
+        <ol>
+            <li><strong>Conception matérielle :</strong> Assemblage des composants ESP32 et MPU6050 sur un gant en tissu confortable.</li>
+            <li><strong>Programmation microcontrôleur :</strong> Développement du firmware ESP32 pour capter les données du MPU6050 et les envoyer via Bluetooth.</li>
+            <li><strong>Intégration Unity :</strong> Écriture de scripts pour interpréter les données reçues et mapper les gestes dans le jeu.</li>
+            <li><strong>Tests :</strong> Ajustement des paramètres pour améliorer la précision et réduire la latence.</li>
+        </ol>
+
+        <h3>Défis rencontrés :</h3>
+        <ul>
+            <li>Minimisation de la latence entre les gestes et l'interaction dans le jeu.</li>
+            <li>Calibration des capteurs pour une précision optimale.</li>
+            <li>Gestion de la consommation d'énergie pour un usage prolongé.</li>
+        </ul>
+
+        <h3>Résultats :</h3>
+        <p>
+            Le projet a démontré une interaction fluide et immersive avec Unity, montrant comment la technologie VR peut enrichir l'expérience utilisateur. Ce projet a également mis en avant mes compétences en électronique, programmation embarquée, et développement Unity.
+        </p>
+    </section>
+
+    <section class="screenshots">
+        <h2>Captures d'écran et Photos</h2>
+        <div class="screenshot-gallery">
+            <img src="cap4.jpg" alt="Assemblage des gants VR">
+            <img src="cap5.jpg" alt="Intégration dans Unity">
+            <img src="cap6.jpg" alt="Mapping des gestes">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Achraf Kammoun | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="radar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Radar Interactif - Arduino</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Radar</a>
+        <nav class="navigation">
+            <a href="index.html#services">Portfolio</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h1>Radar Interactif avec Arduino</h1>
+            <p>Détection en temps réel avec Arduino Uno et capteur ultrasonique HC-SR04.</p>
+        </div>
+    </section>
+
+    <section class="project-details">
+        <h2>À propos du projet</h2>
+        <p>
+            Ce projet vise à concevoir un radar interactif capable de détecter les objets à proximité à l’aide d’un Arduino Uno et d’un capteur ultrasonique HC-SR04. Une interface graphique a également été développée pour visualiser les distances en temps réel.
+        </p>
+
+        <h3>Fonctionnalités principales :</h3>
+        <ul>
+            <li>Mesure précise des distances grâce au capteur HC-SR04.</li>
+            <li>Affichage des données en temps réel sur un écran ou une interface graphique.</li>
+            <li>Rotation du capteur pour couvrir un large champ de détection.</li>
+            <li>Notification lorsque des objets se trouvent à une distance critique.</li>
+        </ul>
+
+        <h3>Étapes de développement :</h3>
+        <ol>
+            <li><strong>Assemblage matériel :</strong> Connexion de l’Arduino Uno, du capteur HC-SR04, et d’un servo-moteur pour la rotation du capteur.</li>
+            <li><strong>Programmation :</strong> Écriture d’un script pour contrôler le servo-moteur et interpréter les données du capteur ultrasonique.</li>
+            <li><strong>Visualisation :</strong> Développement d’une interface graphique pour afficher les distances détectées en temps réel.</li>
+            <li><strong>Tests :</strong> Vérification de la précision et des performances dans divers environnements.</li>
+        </ol>
+
+        <h3>Défis rencontrés :</h3>
+        <ul>
+            <li>Calibrer le capteur HC-SR04 pour éviter les erreurs de lecture.</li>
+            <li>Synchroniser la rotation du servo-moteur avec la capture des données.</li>
+            <li>Optimiser le code pour réduire les délais entre les lectures.</li>
+        </ul>
+
+        <h3>Résultats :</h3>
+        <p>
+            Le radar interactif a fonctionné avec une précision impressionnante, détectant des objets dans un champ de 180° et affichant les résultats en temps réel. Ce projet a renforcé mes compétences en électronique, programmation Arduino, et interface utilisateur.
+        </p>
+    </section>
+
+    <section class="screenshots">
+        <h2>Captures d'écran et Photos</h2>
+        <div class="screenshot-gallery">
+            <img src="cap7.png" alt="Assemblage du radar">
+            <img src="cap8.png" alt="Code Arduino">
+            <img src="cap9.webp" alt="Interface de visualisation">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Achraf Kammoun | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
